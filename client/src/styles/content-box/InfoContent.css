@@ -1,0 +1,18 @@
+.info-section{
+    margin: 0 auto;
+    word-break: keep-all;
+    padding: 4%;
+    width: 61%;
+}
+
+.info-title{
+    font: 800 30px asap,calibri;
+    color: rgb(44, 156, 231);
+    text-shadow: 0 0 0.1em rgb(44, 156, 231);
+    line-height: 2;
+}
+.info-text{
+    font: 16px asap,arial;
+    color: rgb(207, 207, 207);
+}
+

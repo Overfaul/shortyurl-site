@@ -1,0 +1,21 @@
+{
+  "name": "urlshorter",
+  "version": "1.0.0",
+  "description": "Application that helps you to make url much shorter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Nikita Saverkin <saverka5@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.16",
+    "randomstring": "^1.2.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}

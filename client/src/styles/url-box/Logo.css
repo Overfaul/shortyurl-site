@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo a{
+    font: 800 60px asap,calibri;
+    letter-spacing: -1px;
+    color: rgb(241, 47, 173);
+    text-shadow: 0 0 1em rgba(243, 87, 243, 0.664);
+}

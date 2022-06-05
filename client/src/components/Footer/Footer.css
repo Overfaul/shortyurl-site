@@ -1,0 +1,30 @@
+.footer-section{
+    background-color: rgb(17, 15, 27);
+    height:130px;
+    width: 100%;
+    line-height: 2.1;
+    padding:40px;
+}
+
+.copyright{
+    text-align: center;
+    color: rgb(207, 207, 207);
+    font: 18px asap,arial;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 50px;
+}
+
+li a{
+    color: rgb(44,156,231);
+    font: 16px asap,arial;
+}
+
+
+
+  

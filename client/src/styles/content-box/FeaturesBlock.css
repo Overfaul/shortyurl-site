@@ -1,0 +1,58 @@
+.features-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature{
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width:294px;
+    height:294px;
+    border-radius: 8%;
+    box-shadow: inset 0px 0px 2px 2px rgb(28,27,41);
+
+    background-color: rgba(19, 18, 27, 0.486);
+    font: 16px asap,arial;
+    color: rgb(207, 207, 207);
+    transition: all 0.5s ease-out;
+
+}
+.feature:hover{
+    background-color: rgba(102, 100, 112, 0.267);
+    transform: scale(1.1)
+}
+
+.stext{
+    word-break: break-all;
+    width:58%;
+    margin:8px;
+}
+#stext-design{
+    width:57%;
+}
+#stext-device{
+    width: 73%;
+}
+.feature-img{
+    margin: 40px;
+    height: 91px;
+    width:  91px;
+}
+
+
+@media screen and (max-width: 650px){
+    .features-section{
+        display:flex;
+        justify-content: center;
+        padding:100px;
+        flex-direction: column;
+    }
+}
+
+
