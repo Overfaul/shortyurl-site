@@ -5,9 +5,12 @@ import InfoContent from '../components/Main/InfoContent'
 import FeautresBlock from '../components/Main/FeaturesBlock';
 import Footer from '../components/Footer/Footer'
 
+import './MainPage.css'
+
+
 const MainPage = () => {
     return(
-        <div>
+        <div className = "main-page">
             <Logo/>,
             <UrlInput/>,
             <InfoContent/>,

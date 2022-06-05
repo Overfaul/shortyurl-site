@@ -1,9 +1,11 @@
 .footer-section{
     background-color: rgb(17, 15, 27);
-    height:130px;
+    height:160px;
     width: 100%;
     line-height: 2.1;
     padding:40px;
+    position: absolute;
+    bottom: 0;
 }
 
 .copyright{
