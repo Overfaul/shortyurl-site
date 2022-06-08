@@ -13,7 +13,7 @@ class urlController {
                     length: 5,
                     charset: 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890_'
                 });
-                const shorturl = `localhost:3000/${wpath}`
+                const shorturl = `localhost:3000/${wpath}` //Or instead of localhost and port write your domain
                 const response = new Url({ origurl: origurl, shortcode: wpath, shorturl: shorturl, expireAt : new Date()})
                 await response.save()
                 res.json(response)
