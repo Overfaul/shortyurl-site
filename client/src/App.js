@@ -1,6 +1,5 @@
 import React from 'react';
 import MainPage from './page/MainPage';
-import PrivacyPage from './page/PrivacyPage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import './styles/App.css';
 function App() {
